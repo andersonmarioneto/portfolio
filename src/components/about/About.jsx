@@ -1,6 +1,7 @@
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Anderson-Cv.pdf";
+import Info from "./info";
 
 function About() {
     return (
@@ -12,7 +13,15 @@ function About() {
                 <div className="about__container container grid">
                     <img src={AboutImg} className="about__img" />
 
-                    <div className="about__data"></div>
+                    <div className="about__data">
+                        <Info />
+
+                        <p className="about__description">Front-End Developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
+
+                        <a dawnload="" href={CV} className="button button--flex">Dawnload CV &nbsp;
+                            <i class="uil uil-file-download-alt"></i>
+                        </a>
+                    </div>
                 </div>
             </section>
         </>
