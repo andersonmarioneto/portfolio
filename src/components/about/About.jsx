@@ -1,7 +1,7 @@
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Anderson-Cv.pdf";
-import Info from "./info";
+import Info from "./Info";
 
 function About() {
     return (
