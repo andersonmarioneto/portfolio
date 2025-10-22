@@ -39,7 +39,7 @@ function Backend() {
                             <i class='bx  bx-badge-check'></i> 
 
                             <div>
-                                <h3 className="skills__name">Laravel</h3>
+                                <h3 className="skills__name">Next Js</h3>
                                 <span className="skills__level">Basic</span>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ function Backend() {
                             <i class='bx  bx-badge-check'></i> 
 
                             <div>
-                                <h3 className="skills__name">JAVA</h3>
+                                <h3 className="skills__name">Laravel</h3>
                                 <span className="skills__level">Basic</span>
                             </div>
                         </div>
