@@ -18,7 +18,7 @@ function About() {
 
                         <p className="about__description">Front-End Developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
 
-                        <a dawnload="" href={CV} className="button button--flex">Dawnload CV &nbsp;
+                        <a dawnload={CV} href={CV} target="_blank" className="button button--flex">Dawnload CV &nbsp;
                             <i class="uil uil-file-download-alt"></i>
                         </a>
                     </div>
