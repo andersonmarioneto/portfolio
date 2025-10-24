@@ -119,3 +119,45 @@
     visibility: visible;
     transition: .3s;
 }
+
+/* Responsive Telas */
+/* large */
+@media screen and (max-width: 992px){
+    .services__container {
+        grid-template-columns: repeat(3, 218px);
+    }
+}
+/* medium */
+@media screen and (max-width: 768px){
+    .services__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services__content {
+        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    }
+
+    .services__icon {
+        font-size: 1.5rem;
+    }
+}
+/* medium */
+@media screen and (max-width: 576px){
+    .services__modal-content {
+        padding: 4.5rem 1.5rem 2.5rem;
+    }
+
+    .services__modal-description {
+        padding: 0;
+    }
+}
+/* small */
+@media screen and (max-width: 350px){
+    .services__container {
+        grid-template-columns: max-content;
+    }
+
+    .services__content {
+        padding: 5rem;
+    }
+}
